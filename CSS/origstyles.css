@@ -1,0 +1,207 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/convocation.jpg);
+	background-size:cover;
+	height:100vh;
+	background-position:cover;
+}
+
+
+nav{
+	width:100%;
+    height:80px;
+	background-color:#0008;
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+
+ul li{
+	display:inline-block;
+}
+
+ul li a{
+	text-decoration:none;
+	color: #a22639;
+	margin:3px;
+	padding:5px 30px;
+	border:1px solid transparent;
+	transition:0.8s all;
+
+}
+
+ul li a:hover{
+	background-color:#C70039;
+	color:#000 ;
+	text-decoration: none;
+}
+
+ul li.active a{
+	background-color:#C70039;
+	color:#000 ;
+}
+
+i{
+	margin:2px;
+}
+.skilp{
+	float:left;
+	margin-left:-40px;
+	width:150px;
+	height:auto;
+}
+
+.main{
+	max-width:1200px;
+	margin-left:5px;
+}
+
+.title{
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+}
+
+.title h1{
+	color:#C70039  ;
+	font-size:70px;
+}
+
+
+.frontblock{
+	position:absolute;
+	top:60%;
+	height:100vh;
+	left:5%;
+   
+
+}
+
+.frontblock h3{
+	color:#fff;
+	font-size:25px;
+}
+
+.frontblock div.para1{
+	top:55%;
+}
+
+.frontblock div.para2{
+	top:60%;
+}
+
+
+.frontblock div .cssbutton a{
+	left:50px;
+}
+
+
+
+
+.btn{
+	border:1px solid #fff;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.btn:hover{
+	background-color:#c73045;
+	color:#000 ;
+	text-decoration: none;
+	border:transparent;
+	padding:15px;
+	letter-spacing:3px;
+}
+
+
+.instbg{
+	background-image:url(images/teach.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:#e89c35;
+	
+}
+
+.instreg h2{
+	font-family:arial;
+}
+
+.instbgposition{
+	margin-top:50px;
+
+}
+
+.glyphicon-pencil{
+	font-size:50px;
+	color:white;
+	float:right;
+	margin-top:20px;
+}
+
+.instbg h3{
+	font-size:25px;
+	margin-top:200px;
+	color:  #916a35 ;
+}
+
+hr{
+	border-color:#e89c35;
+	background:rgba(0,0,0.4);
+}
+
+
+.label{
+	margin-left:-20px;
+	font-weight:normal;
+	margin-top:15px;
+	color:#e89c35;
+	font-size:19px;
+}
+
+.form-control{
+	margin-top:10px;
+	margin-left:-40px;
+	background:transparent;
+	box-shadow:1px 1px 50px 1px #e89c35;
+	border-radius:0px;
+	border:0px;
+	border-bottom:1px solid #e89c35;
+	font-size:16px;
+	height:40px;
+}
+
+.btn-default{
+   margin-top:3px;
+   margin-left:-19px;
+   font-size:20px;
+   width:450px;
+}
+
+div h2{
+	margin-left: 10px;
+}
+
+ div h2{
+	margin-left: 30px;
+}
+.footer{
+	background-color: black;
+	color:#fff;
+}
+
+.copy{
+	color:gray;
+	marginleft:-10px;
+}
