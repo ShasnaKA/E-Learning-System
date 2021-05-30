@@ -1,0 +1,51 @@
+*{
+	padding:0;
+	margin:0;
+  }
+
+body{
+	background-image:url(handy.jpg);
+        position:cover;
+}
+
+
+#form{
+	background-color: #2aab8a ;
+	background-position:fixed;
+	margin-left:25%;
+	min-height:500px;
+	padding:5px 40px 40px 40px;
+}
+
+
+.registration{
+	font-size:55px;
+	font-family:Agency FB;
+	font-weight: 700;
+	border-bottom-style:ridge;
+}
+
+.text{
+	height:43px;
+}
+
+label{
+	font-size:18px;
+}
+
+.btn-primary{
+	border-radius:0px;
+	padding:10px;
+	width:100%;
+}
+
+.btn-danger{
+	border-radius:0px;
+	padding:10px;
+	width:47%;
+}
+
+.utype{
+   margin-left:500px;
+   margin-top:150px;
+}
